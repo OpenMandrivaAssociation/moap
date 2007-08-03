@@ -26,7 +26,8 @@ bug tracker backends are Bugzilla and Trac.
 %setup -q
 
 %build
-%configure
+# force the libdir value, or package is no longer a proper noarch
+%configure --libdir=%{_prefix}/lib/
 %make 
 
 %install
