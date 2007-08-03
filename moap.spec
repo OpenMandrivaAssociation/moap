@@ -27,12 +27,12 @@ bug tracker backends are Bugzilla and Trac.
 
 %build
 # force the libdir value, or package is no longer a proper noarch
-%configure --libdir=%{_prefix}/lib/
-%make 
+%configure 
+%make
 
 %install
 rm -rf %{buildroot}
-%makeinstall
+%makeinstall libdir=%{buildroot}/%{_prefix}/lib/ 
 
 %clean
 rm -rf %{buildroot}
