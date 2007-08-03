@@ -1,7 +1,7 @@
 Name:		moap
 Version:	0.2.5
 Release:	%mkrel 1
-Summary:	TODO
+Summary:	A tool to help project mainteners to manage releases
 License:	GPL
 Group:      Development/Python		
 URL:		https://thomas.apestaart.org/moap/trac/
@@ -26,9 +26,9 @@ bug tracker backends are Bugzilla and Trac.
 %setup -q
 
 %build
-#python setup.py build
 %configure
 %make 
+
 %install
 rm -rf %{buildroot}
 %makeinstall
