@@ -6,7 +6,6 @@ License:	GPL
 Group:      Development/Python		
 URL:		https://thomas.apestaart.org/moap/trac/
 Source:		http://thomas.apestaart.org/download/moap/%{name}-%{version}.tar.bz2
-Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 Buildrequires:	python-devel
 BuildArch:      noarch
 %description
