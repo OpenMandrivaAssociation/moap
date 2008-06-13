@@ -1,5 +1,5 @@
 Name:		moap
-Version:	0.2.5
+Version:	0.2.6
 Release:	%mkrel 1
 Summary:	A tool to help project mainteners to manage releases
 License:	GPL
@@ -44,4 +44,4 @@ rm -rf %{buildroot}
 %{_bindir}/*
 %{py_puresitedir}/%{name}
 %{_sysconfdir}/bash_completion.d/*
-
+%{_mandir}/man1/*
