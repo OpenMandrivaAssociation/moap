@@ -45,3 +45,33 @@ rm -rf %{buildroot}
 %{py_puresitedir}/%{name}
 %{_sysconfdir}/bash_completion.d/*
 %{_mandir}/man1/*
+
+
+%changelog
+* Tue Nov 02 2010 Michael Scherer <misc@mandriva.org> 0.2.7-2mdv2011.0
++ Revision: 592410
+- rebuild for python 2.7
+
+* Sat Jun 27 2009 Frederik Himpe <fhimpe@mandriva.org> 0.2.7-1mdv2010.0
++ Revision: 390009
+- update to new version 0.2.7
+
+* Tue Jan 06 2009 Funda Wang <fwang@mandriva.org> 0.2.6-2mdv2009.1
++ Revision: 325758
+- rebuild
+
+* Fri Jun 13 2008 Michael Scherer <misc@mandriva.org> 0.2.6-1mdv2009.0
++ Revision: 218978
+- new version
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Fri Aug 03 2007 Michael Scherer <misc@mandriva.org> 0.2.5-1mdv2008.0
++ Revision: 58654
+- force libdir value to make it compile on x86_64
+- Import moap
+
