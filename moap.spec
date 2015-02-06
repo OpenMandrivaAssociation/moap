@@ -1,6 +1,6 @@
 Name:		moap
 Version:	0.2.7
-Release:	%mkrel 2
+Release:	3
 Summary:	A tool to help project mainteners to manage releases
 License:	GPL
 Group:      Development/Python		
